@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Shopple" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:itemTextAppearance">@style/ActionBarText</item>
+    </style>
+
+    <style name="BottomBarText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/bottomTextSize</item>
+
+    </style>
+
+    <style name="ActionBarText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/actionTextSize</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+
+    </style>
+
+    <style name="ProfileEmail">
+        <item name="android:textSize">@dimen/profileEmailSize</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="ProfileEditText">
+        <item name="android:textSize">@dimen/profileEmailSize</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

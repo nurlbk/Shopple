@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/profileImageSize"
+        android:layout_height="@dimen/profileImageSize"
+
+        android:src="@drawable/ic_profile"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="30dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/profileTextSize"
+        style="@style/ProfileEditText"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:autofillHints="textPersonName"
+        android:enabled="false">
+    </EditText>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ProfileEmail"
+        android:text="@string/email"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/profile_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/profileTextSize"
+        style="@style/ProfileEditText"
+        android:text="@string/hintPhoneNumber"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:autofillHints="phone"
+        android:enabled="false">
+    </EditText>
+
+    <Button
+        android:id="@+id/profile_save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/light_blue"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/save"
+
+        android:visibility="gone"
+
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        >
+    </Button>
+
+</LinearLayout>

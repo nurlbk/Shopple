@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Shopple</string>
+
+    <string name="googleSignIn">Log in with Google</string>
+    <string name="skipSignIn">Skip Sign In</string>
+
+    <string name="slogan">The product you always desired</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="sign_out">Sign out</string>
+    <string name="edit">Edit</string>
+
+    <string name="registerDialogTitle">You are not registered!</string>
+    <string name="registerDialogMessage">Do you want to sign in?</string>
+
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="create">Create</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="email">example@gmail.com</string>
+    <string name="phone">+77XXXXXXXXX</string>
+    <string name="hintPhoneNumber">+7</string>
+    <string name="userDataReq">Name must at least 2 letters, PhoneNumber must start with "+7"</string>
+
+
+</resources>
